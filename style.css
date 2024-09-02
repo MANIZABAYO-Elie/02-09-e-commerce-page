@@ -1,66 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 1px solid hsl(223, 64%, 98%);
+}
+.header-profle {
+  display: flex;
+  gap: 30px;
 
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+  margin-right: 500px;
 }
-body{
-    margin: 0 auto;
-    height: 100vh;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+body {
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-.logo{
-    width: 70px;
-    height: 20px;
+.container {
+  align-items: center;
+  justify-content: center;
 }
-nav{
-    display: flex;
-    gap: 40px;
+.logo {
+  width: 70px;
+  height: 20px;
 }
-ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-.container{
-    display: flex;
-    gap:140px;
-}
-.header-icon{
-    width: 30px;
-    height: 20px;
-}
-.user-photo{
-    width: 60px;
-    height: 60px;
-}
-.shoe-image{
-    width: 70px;
-    border-radius: 5px;
-    
-}
-.small-shoes{
-    display: flex;
-    gap: 20px;
-    width: 340px;
-    margin-top: 20px;
 
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-left: 400px;
 }
-.big-shoe{
-    width: 340px;
-    border-radius: 10px;
+.container {
+  display: flex;
+  gap: 140px;
 }
-.symbols-container{
-    display: flex;
-    gap: 20px;
+.header-icon {
+  width: 30px;
+  height: 20px;
 }
-.add-minus-icon{
-    width: 30px;
-    height: 10px;
+.user-photo {
+  width: 60px;
+  height: 60px;
 }
-.adding-cart{
-    display: flex;
-    gap: 20px;
+.shoe-image {
+  width: 70px;
+  border-radius: 5px;
+}
+.small-shoes {
+  display: flex;
+  gap: 20px;
+  width: 340px;
+  margin-top: 20px;
+}
+.big-shoe {
+  width: 340px;
+  border-radius: 10px;
+}
+.symbols-container {
+  display: flex;
+  gap: 20px;
+}
+.add-minus-icon {
+  width: 30px;
+  height: 10px;
+}
+.adding-cart {
+  display: flex;
+  gap: 20px;
 }
